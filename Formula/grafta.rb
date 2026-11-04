@@ -11,22 +11,22 @@ class Grafta < Formula
   on_macos do
     on_arm do
       url "#{base}/grafta-aarch64-apple-darwin.tar.gz"
-      sha256 "f0a62b4c52f3aa1226588ef6db3886b02f6c37ce0e663fc87e194354e496a490"
+      sha256 "473d672e2763ccb58fabf56e77b27fb2936e5b8a7376558c9975dee718271e09"
     end
     on_intel do
       url "#{base}/grafta-x86_64-apple-darwin.tar.gz"
-      sha256 "c4c52aac9df9c87e7c21f65f13c090ba01e119813abfca826987afb5cbe8e3f2"
+      sha256 "4308266d6766e07533436ff223d544ad99f0ba484fdbad0d626b7df935ee5fbe"
     end
   end
 
   on_linux do
     on_arm do
       url "#{base}/grafta-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b836119b532c970d71bc7bfa94c4dec86eadd70556707ce744cf25074f53262b"
+      sha256 "7404e8241c53ddf76e064bf48ca331fe333fed01dc9257ac91d05a7ec87a7d42"
     end
     on_intel do
       url "#{base}/grafta-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "580bd7f74492009cd38c422de2f0c286d8a02307acff41cb3486271172a2a3ad"
+      sha256 "3a638e96e9eb2b69f361c16bcc52e89aa594462fded75ff77f601d3ff93a6287"
     end
   end
 
