@@ -3,30 +3,30 @@
 class Grafta < Formula
   desc "Figma's file format for your agent: read and write .fig files, offline"
   homepage "https://n0ss4.github.io/grafta"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
-  base = "https://github.com/n0ss4/grafta/releases/download/v0.4.0"
+  base = "https://github.com/n0ss4/grafta/releases/download/v0.5.0"
 
   on_macos do
     on_arm do
       url "#{base}/grafta-aarch64-apple-darwin.tar.gz"
-      sha256 "22539a3f9eb586fb8d3bf501bce4573c8aaf6c1f810b5ee16f7ccd6066ef3dfe"
+      sha256 "b3b1b5da186ecdf49889003f692797467be14f31f4f2578f9afa325306517dee"
     end
     on_intel do
       url "#{base}/grafta-x86_64-apple-darwin.tar.gz"
-      sha256 "ad658d05681500df5a34bd8dcf7038e3582bb6b95d6cc03f0870515879d88894"
+      sha256 "8e221592ad2fb2cd4be527915859d944ad8a6e895464f3c1d59f01942621aa25"
     end
   end
 
   on_linux do
     on_arm do
       url "#{base}/grafta-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "61c341fd5652bba410e401d7e55926cefa03fb7f408fa1a57f47e34e74dc5066"
+      sha256 "47480c47ebc544b279adf54d8ada4c02d477f6ce1450f875a390968c625172be"
     end
     on_intel do
       url "#{base}/grafta-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d886e9bd63d0d37c41264989c37e6662d79a656ad1b00b230920b7e5a6817da4"
+      sha256 "c3a36e16621209916b7a621baa0f2ed1d5727ff44d5a3c5afbfe6fa662e0f838"
     end
   end
 
